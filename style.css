@@ -4,9 +4,39 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  body {
+body {
     background-color: #6e6d6d;
-  }
+}
+.nav {
+  background-color: #ffffff;
+  color: #000000;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+}
+.nav > li {
+  display: inline-block;
+  padding-right: 25px;
+  font-size: 20px;
+}
+.nav > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+.nav > li > a:hover {
+  color: #c1c1c1;
+}
+.logo{
+  color: #000000;
+  float: left;
+  padding-left: 25px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.logo > a {
+  text-decoration: none;
+  color: #000000;
+}
   .wrapper {
     position: absolute;
     width: 90vmin;
